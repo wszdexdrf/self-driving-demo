@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="net.3.weight" out_port_id="net.3.weight"/>
+		<IR name="net.3.weight/Output_0/Data__const" out_port_id="1" id="18"/>
+	</map>
+	<map>
+		<framework name="22" out_port_id="22"/>
+		<IR name="Conv_0" out_port_id="2" id="9"/>
+	</map>
+	<map>
+		<framework name="input.1" out_port_id="input.1"/>
+		<IR name="input.1" out_port_id="0" id="5"/>
+	</map>
+	<map>
+		<framework name="cell.weight_hh" out_port_id="cell.weight_hh"/>
+		<IR name="cell.weight_hh/Output_0/Data__const" out_port_id="1" id="1"/>
+	</map>
+	<map>
+		<framework name="net.1.weight" out_port_id="net.1.weight"/>
+		<IR name="net.1.weight/Output_0/Data__const" out_port_id="1" id="10"/>
+	</map>
+	<map>
+		<framework name="30" out_port_id="30"/>
+		<IR name="Gemm_8" out_port_id="2" id="44"/>
+	</map>
+	<map>
+		<framework name="27" out_port_id="27"/>
+		<IR name="Flatten_5/Reshape" out_port_id="2" id="33"/>
+	</map>
+	<map>
+		<framework name="23" out_port_id="23"/>
+		<IR name="Conv_1" out_port_id="2" id="13"/>
+	</map>
+	<map>
+		<framework name="25" out_port_id="25"/>
+		<IR name="Conv_3" out_port_id="2" id="21"/>
+	</map>
+	<map>
+		<framework name="net.2.weight" out_port_id="net.2.weight"/>
+		<IR name="net.2.weight/Output_0/Data__const" out_port_id="1" id="14"/>
+	</map>
+	<map>
+		<framework name="hx" out_port_id="hx"/>
+		<IR name="hx" out_port_id="0" id="0"/>
+	</map>
+	<map>
+		<framework name="34" out_port_id="34"/>
+		<IR name="34" out_port_id="2" id="51"/>
+	</map>
+	<map>
+		<framework name="33" out_port_id="33"/>
+		<IR name="33" out_port_id="1" id="46"/>
+	</map>
+	<map>
+		<framework name="net.4.weight" out_port_id="net.4.weight"/>
+		<IR name="net.4.weight/Output_0/Data__const" out_port_id="1" id="22"/>
+	</map>
+	<map>
+		<framework name="net.7.weight" out_port_id="net.7.weight"/>
+		<IR name="net.7.weight/Output_0/Data__const" out_port_id="1" id="37"/>
+	</map>
+	<map>
+		<framework name="24" out_port_id="24"/>
+		<IR name="Conv_2" out_port_id="2" id="17"/>
+	</map>
+	<map>
+		<framework name="net.6.weight" out_port_id="net.6.weight"/>
+		<IR name="net.6.weight/Output_0/Data__const" out_port_id="1" id="27"/>
+	</map>
+	<map>
+		<framework name="cell.weight_ih" out_port_id="cell.weight_ih"/>
+		<IR name="cell.weight_ih/Output_0/Data__const" out_port_id="1" id="41"/>
+	</map>
+	<map>
+		<framework name="28" out_port_id="28"/>
+		<IR name="Gemm_6" out_port_id="2" id="36"/>
+	</map>
+	<map>
+		<framework name="29" out_port_id="29"/>
+		<IR name="Gemm_7" out_port_id="2" id="40"/>
+	</map>
+	<map>
+		<framework name="net.0.weight" out_port_id="net.0.weight"/>
+		<IR name="net.0.weight/Output_0/Data__const" out_port_id="1" id="6"/>
+	</map>
+	<map>
+		<framework name="out_layer.weight" out_port_id="out_layer.weight"/>
+		<IR name="out_layer.weight/Output_0/Data__const" out_port_id="1" id="48"/>
+	</map>
+	<map>
+		<framework name="32" out_port_id="32"/>
+		<IR name="Add_10" out_port_id="2" id="45"/>
+	</map>
+	<map>
+		<framework name="31" out_port_id="31"/>
+		<IR name="Gemm_9" out_port_id="2" id="4"/>
+	</map>
+</mapping>
