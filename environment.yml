@@ -20,5 +20,3 @@ dependencies:
     - imageio
     - pip:
         - moviepy
-        - tensorflow==1.1
-        - keras==1.2
