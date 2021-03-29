@@ -21,6 +21,12 @@ I hardly have to  tell the social impacts of a fully functional self driving car
 
 # Documentaiton
 
+To run the code, assuming the correct libraries are present and you have downloaded the dataset (more explained in the notebook), first create the model using `Model.ipynb`, though the onnx file is provided.
+
+Then run the simulator and start the Autonomous Mode.
+
+Finally run the `drive.py` script.
+
 **Most of the working of the code is explained with comments in the code itself.**
 
 ![Untitled](https://user-images.githubusercontent.com/81520912/112793770-8451c900-9083-11eb-822a-505d991f5ba1.png)
