@@ -23,9 +23,11 @@ I hardly have to  tell the social impacts of a fully functional self driving car
 
 To run the code, assuming the correct libraries are present and you have downloaded the dataset (more explained in the notebook), first create the model using `Model.ipynb`, though the onnx file is provided.
 
+Compile and optimize the file using Intel Model Optimizer. Store it it in a folder named `Driver`. Note that this too is provided.
+
 Then run the simulator and start the Autonomous Mode.
 
-Finally run the `drive.py` script.
+Finally run the `drive.py` script. It should run and the car would drive autonomously, if not, then double check the dependencies.
 
 **Most of the working of the code is explained with comments in the code itself.**
 
