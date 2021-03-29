@@ -1,7 +1,7 @@
 # Kindly note that the libraries required are not the latest libraries. 
 # The simulator wasn't updated for long hence the latest python version it supports is python 3.5.2
-# The easiest way to run the program is by creating a separate conda environment. 
-# A yml file is attached to facilitate it.
+# and previous versions of libraries which support python 3.5.2
+# This program has been written according to that
 
 
 
